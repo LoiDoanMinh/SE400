@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    /* overflow: hidden; */
+
+}
+#myVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: fill;
+ 
+  }
+
+  .phu
+  {
+    display: flex;
+    top: 0;
+    left: 0;
+    padding-top: 100px;
+    min-width: 100%;
+    object-fit: fill;
+    background: rgba(0, 0, 0, 0.5);
+
+  }
+  .button
+  {
+    position: absolute;
+    top: -125px;
+    left:-150px;
+    /* object-fit: fill; */
+    transform: scale(0.1);
+ 
+  }
+  .Anh-Lon
+  {
+    display: flex;
+    /* margin: auto; */
+    margin-top: -350px;
+    margin-left: -170px;
+width:10px;
+height: 10px;
+  }
+.Anh
+{
+  display: block;
+  z-index: 2;
+margin: auto;
+transform: scale(0.6); 
+
+}
+.Anh:hover
+{
+  transform: scale(0.8); 
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.transition-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:white; /* Đặt màu nền ban đầu thành đen */
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+.tran{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:black;
+}
+  
+#text{
+  position: relative;
+  background-color: white;
+  z-index: 3;
+width:300px;
+  margin-top: -120px;
+  margin-left:-25px;
+  height: 40px;
+  border-radius: 18px;
+  border: 0cap;
+  font-size: 35px;
+  font-family:'Agbalumo';
+  padding-left: 10px;
+  padding-bottom: 5px;
+  outline:none;
+}

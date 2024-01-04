@@ -1,0 +1,15 @@
+h1 {
+  color: pink; }
+
+.test {
+  font-size: 1rem; }
+
+.card-course-item {
+  margin-top: 16px; }
+
+.navbar ul.menu {
+  list-style: none; }
+  .navbar ul.menu li {
+    padding: 5px; }
+    .navbar ul.menu li a {
+      text-decoration: none; }

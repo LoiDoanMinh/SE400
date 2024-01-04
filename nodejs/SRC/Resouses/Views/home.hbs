@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Begin-Page.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Agbalumo&display=swap">
+ 
+    <title>Explosive Word</title>
+</head>
+<body>
+    <div class="tran">
+    <div class="transition-container">
+        <audio  id="audio" preload="auto" loop  >
+            <source type="audio/mp3" src="../main/assets/creepy-devil-dance-166764.mp3">
+        </audio>
+        <video  autoplay muted loop id="myVideo" width="100%" height="720px" >
+            <source src="../main/assets/Start2.mp4" type="video/mp4" >
+          </video>
+          <a href="#" class="button" id="nut">
+            <img src="../main/assets/volumne1.png" alt="" id="img" width="352px" height="297">
+        </a>
+    
+        <div class="phu" id="phu1">
+            <a href="#" class="Anh-Lon" id="start" >
+                <img src="asset-begin-page/Anh-unscreen.gif" alt="" class="Anh" > 
+            
+            </a>
+        </div>
+        <input type="text" id="text" value="Username1" maxlength="12">
+
+      </div>
+       
+    </div>
+    <script>
+      var variableValue=document.querySelector("#text");
+        var btn=document.querySelector("#nut");
+        var img=document.querySelector("#img");
+        var i=0;
+        btn.onclick=function() {
+            var p=document.querySelector("#audio");
+            if (i%2==0)
+            {
+                img.setAttribute("src","../main/assets/vector.png");
+            p.play();
+            }
+        else
+        {
+            img.setAttribute("src","../main/assets/volumne1.png");
+        p.pause();
+        }
+    i++;
+        }
+        document.addEventListener('DOMContentLoaded', function () {
+  // Triggers the transition effect after 1 second (1000 milliseconds)
+  var btn1=document.querySelector('#start');
+        btn1.onclick=function(){
+            setTimeout(function () {
+    // document.querySelector('.transition-container').style.opacity = '0';
+
+    document.querySelector('.transition-container').style.opacity = '0';
+
+  }, 1000);
+
+  // Redirects to the next page after the transition effect finishes
+  setTimeout(function () {
+    window.location.href = `{{local}}/home?variable=${variableValue.value}`;
+  }, 2000); // Change 2000 to match the total duration of your transition effect
+        }
+
+});
+    </script>
+</body>
+</html>

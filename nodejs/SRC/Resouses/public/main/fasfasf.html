@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Desktop - 3</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spicy+Rice%3A400" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito%3A400" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Mono%3A400" />
+  <link rel="stylesheet" href="./styles/desktop-4 copy.css" />
+  <link rel="stylesheet" href="./styles/desktop-4 copy 2.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <div class="headBomb">
+    <div class="codeBomb">
+      <p>Code: KOFM</p>
+    </div>
+    <div class="volumeBomb">
+      <img id="nut" src="assets/vector-5s3.png" alt="">
+    </div>
+  </div>
+  <!--end header  -->
+  <div class="bodyBomb">
+    <div class="leftbodyBomb" >
+      <div class="bodyofleftbody">
+        <img src="" alt="">
+      </div>
+      <div class="buttonBomb">
+        <p>Join The Game</p>
+      </div>
+      <!-- end khối bị none khi vào room đợi -->
+      <div class="buttonBomb2" style="display: none;">
+        <p>Leave</p>
+      </div>
+    </div>
+    <div class="leftbodyBomb" id="leftBodyBombInRoom">
+      <div class="space">
+
+      </div>
+      <div class="quesInRoomBomb">
+        <div class="tresure">
+            <img id="Bom" src="assets/questionBox.png" alt="">
+            <img id="Bom1"  src="./assets/bum.gif" style="position:absolute;"/>
+        </div>
+        <div class="Ques" id="Ques">
+            <p></p>
+        </div>
+      </div>
+      <div class="playerInRoomBomb">
+          <div class="playerSpace">
+            <div class="playerNameSpace">
+             <p> UserName1</p>
+            </div>
+            <div class="playeravtSpace">
+              <img src="assets/dog1.png" alt="">
+            </div>
+          </div>
+          <div class="playerSpace">
+            <div class="playerNameSpace">
+            <p>UserName2</p>
+            </div>
+            <div class="playeravtSpace">
+              <img src="assets/dog3.png" alt="" >
+            </div>
+          </div>
+          <div class="playerSpace">
+            <div class="playerNameSpace">
+              <p>UserName3</p>
+            </div>
+            <div class="playeravtSpace">
+              <img src="assets/dog4.png" alt="" style="width: 60%;">
+            </div>
+          </div>
+          <div class="playerSpace">
+            <div class="playerNameSpace">
+              <p>UserName4</p>
+            </div>
+            <div class="playeravtSpace">
+              <img src="assets/dog5.png" alt="">
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="rightbodyBomb">
+      <div class="titlechatBomb">
+        <p>Chat Room</p>
+      </div>
+      <div class="chat" id="chat">
+        <p class="chattextBomb">Usernam1: Hello tất cả mọi người nhá chào mọ người nhá, hello tuyệt vời</p>
+        <p class="chattextBomb">Usernam1: Hello tất cả mọi người nhá chào mọ người nhá, hello tuyệt vời</p>
+      </div>
+      <input id="chatbar" class="chatboxBomb" type="text" placeholder="Type Here to Text">
+    </div>
+  </div>
+
+</body>
+<script>
+  var Bom=document.querySelector("#Bom");
+  var Bum=document.querySelector("#Bom1");
+  var Ques=document.querySelector("#Ques");
+Bom.onclick=mytimer;
+
+
+function mytimer ()
+{
+  // Bom.classList.add('shake-animation');
+  
+  // Remove the shake class after the animation completes
+
+  
+  // setTimeout(() => {
+  //   Bom.classList.remove('shake-animation');
+  // }, 500);
+  // Bom.style.transform= "scale(1.1)";
+  setTimeout(()=>{Bom.style.transform= "scale(1.2)";},300); 
+  setTimeout(()=>{Bom.style.transform= "scale(1.5)";},600); 
+  setTimeout(()=>{Bom.style.transform= "scale(2.)";},800); 
+  setTimeout(()=>{Bom.style.transform= "scale(2.5)"; Bum.style.display="block";},1000); 
+  setTimeout(()=>{ Bom.style.opacity="0"; Bom.style.transform= "scale(0.8)"; },1200);
+  setTimeout(()=>{ Bom.style.opacity="1"; Bum.style.display="none"; Ques.querySelector('p').textContent="Dog"},1600);
+
+  // setTimeout(()=>{Bom.style.transform= "scale(2.0)";},100); 
+  // setTimeout(()=>{Bom.style.transform= "scale(2.5)";},100); 
+}
+</script>

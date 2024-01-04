@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Desktop - 3</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spicy+Rice%3A400" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito%3A400" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Mono%3A400" />
+  <link rel="stylesheet" href="../main/styles/DetectiveWord.css" />
+  <link rel="stylesheet" href="../main/styles/DetectiveWordGame.css" />
+</head>
+
+<body>
+     <audio  id="audio" preload="auto" autoplay="auto" loop  >
+    <source type="audio/mp3" src="../main/assets/creepy-devil-dance-166764.mp3">
+</audio>
+  <audio  id="audio2" preload="auto" >
+    <source type="audio/mp3" src="../main/assets/explosion-6055.mp3">
+</audio>
+  <audio  id="audio3" preload="auto" >
+    <source type="audio/mp3" src="../main/assets/warning.mp3">
+</audio>
+ <audio  id="audio4" preload="auto" >
+    <source type="audio/mp3" src="../main/assets/victory.mp3">
+</audio>
+ <audio  id="audio5" preload="auto" >
+    <source type="audio/mp3" src="../main/assets/boo.mp3">
+</audio>
+  <!-- header -->
+  <div class="headBomb">
+    <div class="codeBomb">
+      <p id="codeJoinRoom">Code: {{idPlayer.idPlayer}}</p>
+    </div>
+    <div class="volumeBomb">
+      <img id="nut" src="../main/assets/vector.png" alt="">
+    </div>
+  </div>
+  <!--end header  -->
+  <div class="bodyBomb">
+    <div class="leftbodyBomb" >
+      <div class="bodyofleftbody">
+        <img src="" alt="">
+      </div>
+      <div class="buttonBomb" id="ButtonStart">
+        <p>Start The Game</p>
+      </div>
+      <!-- end khối bị none khi vào room đợi -->
+      <div class="buttonBomb2" id="ButtonLeave" style="display: none;">
+        <p>Leave</p>
+      </div>
+    </div>
+    <div class="leftbodyBomb" id="leftBodyBombInRoom">
+      <div class="space">
+      </div>
+      <div class="quesInRoomBomb">
+        <div class="tresure">
+            <img id="Bom" src="../main/assets/questionBox.png" alt="">
+            <img id="Bom1"  src="../main/assets/bum.gif" style="position:absolute;"/>
+        </div>
+        <div class="Ques" id="Ques">
+            <p></p>
+        </div>
+      </div>
+      <div class="playerInRoomBomb">
+          <div class="playerSpace">
+            <div class="playerNameSpace">
+             <p> UserName1</p>
+            </div>
+            <div class="playeravtSpace">
+              <img src="../main/assets/dog1.png" alt="">
+            </div>
+          </div>
+          <div class="playerSpace">
+            <div class="playerNameSpace">
+            <p>UserName2</p>
+            </div>
+            <div class="playeravtSpace">
+              <img src="../main/assets/dog3.png" alt="" >
+            </div>
+          </div>
+          <div class="playerSpace">
+            <div class="playerNameSpace">
+              <p>UserName3</p>
+            </div>
+            <div class="playeravtSpace">
+              <img src="../main/assets/dog4.png" alt="" style="width: 60%;">
+            </div>
+          </div>
+          <div class="playerSpace">
+            <div class="playerNameSpace">
+              <p>UserName4</p>
+            </div>
+            <div class="playeravtSpace">
+              <img src="../main/assets/dog5.png" alt="">
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="rightbodyBomb">
+      <div class="titlechatBomb">
+        <p id="fa">Chat Room</p>
+      </div>
+      <div class="chat" id="chat">
+    
+      </div>
+      <input id="chatbar" class="chatboxBomb" type="text" placeholder="Type Here to Text">
+      <img src="../main/assets/mic.png" alt="" class="mic" id="mic">
+    </div>
+  </div>
+  <audio id="localAudio"></audio>
+  <audio id="remoteAudio"></audio>
+</body>
+  <script src="https://unpkg.com/peerjs@1.5.2/dist/peerjs.min.js"></script>
+<script src="../socket.io/socket.io.js"></script>
+<script>
+  var c=false;
+  var UserName={{{json Username}}}.UserName;
+  var chatb=document.querySelector("#chatbar");
+  function openStream() {
+      const config = { audio: true, video: false };
+      return navigator.mediaDevices.getUserMedia(config);
+    }
+     function playStream(idAudioTag, stream) {
+      const audio = document.getElementById(idAudioTag);
+      audio.srcObject = stream;
+      audio.play();
+    }
+    let micEnabled = false;
+    let localStream;
+    document.getElementById('mic').addEventListener('click', toggleMicrophone);
+    function toggleMicrophone() {
+      console.log(UserName,c);
+    
+      if (localStream) {
+        const audioTracks = localStream.getAudioTracks();
+        console.log('Audio tracks:', audioTracks);
+        if (audioTracks.length > 0) {
+          micEnabled = !micEnabled;
+
+          audioTracks.forEach(track => {
+            console.log('hello',track.enabled);
+            track.enabled = micEnabled;
+            console.log('hello1',track.enabled);
+          });
+
+          console.log(`Microphone is ${micEnabled ? 'enabled' : 'disabled'}`);
+        }
+      }
+
+    }
+   var peer = new Peer();
+   var micID;
+    peer.on('open', function(id) {
+      console.log('My peer ID is: ' + id);
+    micID=id;
+    });
+  
+     function calling(id1,id2,id3)
+    {
+      console.log(UserName);
+      openStream()
+        .then(stream => {
+          localStream = stream;
+          {{!-- const call = peer.call(id, stream); --}}
+          const call2 = peer.call(id2, stream);
+          {{!-- call.on('stream', remoteStream => playStream('remoteAudio', remoteStream)); --}}
+          call2.on('stream', remoteStream => playStream('remoteAudio', remoteStream));
+             const call3 = peer.call(id3, stream);
+          const call4 = peer.call(id1, stream);
+          call3.on('stream', remoteStream => playStream('remoteAudio', remoteStream));
+          call4.on('stream', remoteStream => playStream('remoteAudio', remoteStream));
+        });
+    }
+peer.on('call', function(call) {
+      openStream()
+        .then(stream => {
+          localStream = stream;
+          call.answer(stream);
+
+          call.on('stream', remoteStream => playStream('remoteAudio', remoteStream));
+          const audioTracks = localStream.getAudioTracks();
+          if (audioTracks.length > 0) {
+            
+            audioTracks.forEach(track => {
+              track.enabled = false;
+              const audioControl = track.getSettings().volumeControl;
+      if (audioControl) {
+        track.applyConstraints(0.5);
+      } else {
+        console.warn('Volume control is not supported for this audio track.');
+      }
+
+            });
+          }
+        });
+    })
+var UserName={{{json Username}}}.UserName;
+var idPlayer1={{{json idPlayer}}}.idPlayer;
+var Loca={{{json Loca}}}.Loca;
+var Of={{{json Of}}}.Of;
+var range={{{json range}}}.range;
+var gameMode={{{json gameMode}}}.gameMode;
+function decodeHtmlEntity(encodedString) {
+        var doc = new DOMParser().parseFromString(encodedString, 'text/html');
+        return doc.documentElement.textContent;
+    }
+    Of = decodeHtmlEntity(Of);
+
+      var socket=io(`{{local}}`);
+
+var mic=document.querySelector("#mic");
+
+mic.onclick=function(){
+  if (c==false)
+  {
+    mic.setAttribute("src",'../main/assets/mic2.png');
+    c=!c;
+  }
+  else
+  {   
+    mic.setAttribute("src",'../main/assets/mic.png');
+    c=!c;
+  }
+}
+ 
+var local=`{{local}}`;
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js" integrity="sha512-b94Z6431JyXY14iSXwgzeZurHHRNkLt9d6bAHt7BZT38eqV+GyngIi/tVye4jBKPYQ2lBdRs0glww4fmpuLRwA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script type="module" src="../main/DetectiveWord.js"></script>
+<script src="../main/ScriptChung.js"></script>

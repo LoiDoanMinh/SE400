@@ -1,0 +1,325 @@
+
+  html {
+    font-size:62.5%;
+  }
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 151.9rem;
+}
+
+.headBomb
+{
+  width: 100%;
+  background-color: #e9ac37;
+  height: 6.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+.codeBomb
+{
+  margin-left: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 3.2rem;
+font-weight: 400;
+color: #ffffff;
+font-family: Spicy Rice, 'Source Sans Pro';
+
+}
+.volumeBomb
+{
+height:100%;
+display: flex;
+justify-self: center;
+align-items: center;
+margin-right: 50px;
+}
+
+.volumeBomb img
+{
+  width: 40%;
+  height: auto;
+}
+
+.bodyBomb
+{
+  background-color: rgb(0, 0, 0);
+height: 62.3rem;
+display: flex;
+justify-content: space-between;
+
+}
+
+.leftbodyBomb
+{
+width: 75%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+background-size: contain;
+background-repeat: no-repeat;
+}
+.bodyofleftbody 
+{
+ display: flex;
+
+ justify-content: center;
+}
+.bodyofleftbody img
+{
+  width: 80%;
+  height: auto;
+}
+
+.titleBomb
+{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titleBomb p
+{
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.3775;
+    color: #ffffff;
+    font-family: Spicy Rice, 'Source Sans Pro';
+
+}
+.buttonBomb, .buttonBomb2
+{
+  align-self: center;
+  width: 32.7rem;
+  height: 5.5rem;
+  background-color: #90ed47;
+  text-align: center;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 2.7768rem;
+}
+.buttonBomb2
+{
+  background-color: red;
+  width:16.35rem ;
+  height: 4.5rem;
+  margin-top: 25px;
+}
+.buttonBomb p, .buttonBomb2 p
+{
+
+  font-size: 3.2744rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #000000;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  transform: scale(0.8);
+}
+.rightbodyBomb
+{
+  background-color: rgba(31, 24, 24, 0.6899999976);
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.titlechatBomb
+{
+
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #ffffff;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  text-align: center;
+}
+.chat
+{
+  height: 78%;
+  overflow:auto;
+}
+.chat::-webkit-scrollbar {
+  display: none;
+}
+.chatboxBomb
+{
+  height: 7.6rem;
+  padding-left: 10px;
+  font-size: 2.4rem;
+  font-weight: 10;
+  line-height: 1.3775;
+  color: #0f0f0f;
+  font-family: Roboto Mono;
+  outline: none;
+}
+.chattextBomb
+{
+    margin-left: 10px;
+    font-size: 2.3rem;
+    font-weight: 400;
+    line-height: 1.3775;
+    color: #fbf3f3;
+    font-family: Nunito;
+    box-sizing: border-box;
+    word-wrap:break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 10px;
+}
+
+.watingPlayerBomb
+{
+  height: 70%;
+  width: 50%;
+  margin: 0 auto;
+}
+.row1Bomb,.row2Bomb,.row3Bomb
+{
+  height: 33.33333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.row2Bomb
+{
+  justify-content: space-around;
+  width: 100%;
+}
+.midBomb
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.midBomb img
+{
+  padding-left: 40px;
+  width: 50%;
+  height: auto;
+}
+.midBomb p
+{
+  margin-top: 20px;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #fbf3f3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.playerBomb
+{
+  width:30%;
+  height: 90%;
+  position: relative;
+}
+
+.playerBombavt
+{
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+  flex-direction: column;
+  z-index: 2;
+}
+.hp{
+  height: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+.fire
+{
+  height: 15.8709rem!important;
+  width: 15%!important;
+  object-fit: cover;
+  flex-shrink: 0;
+  position: absolute;
+  bottom: -15px;
+  right: -10px;
+  z-index: 0;
+
+}
+.playerBombavt .hp img
+{
+width: 20%;
+height: auto;
+}
+.playerBombavt img
+{
+  width: 45%;
+  height: auto;
+}
+.playerBombname
+{
+  margin-top: 14px;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.playerBombname p
+{
+  font-size: 2.0rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #fbf3f3;
+  font-family: Spicy Rice, 'Source Sans Pro';
+}
+.above
+{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 4%;
+}
+.inputBomb
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.inputBomb input
+{
+  width: fit-content;
+  height: 5rem;
+  border: solid 0.1rem #000000;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  font-size: 2.4rem;
+  font-weight: 10;
+  line-height: 1.3775;
+  color: #0f0f0f;
+  font-family: Roboto Mono;
+  outline: none;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+#Bom
+{
+  transition: transform 1s ease;
+}

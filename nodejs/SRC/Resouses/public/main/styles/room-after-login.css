@@ -1,0 +1,875 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 151.9rem;  
+ 
+}.room-after-login-pgV {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 168, 0, 0.6000000238);
+
+}
+.clear
+{
+    clear:both;
+}
+.room-after-login-pgV .auto-group-vjm9-453 {
+  margin-bottom: 3.1rem;
+  width: 146.7rem;
+  height: 96.8rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s {
+  box-sizing: border-box;
+  padding: 1rem 2.6rem 2.6rem 1.5rem;
+  width: 80.4rem;
+  height: 52.9rem;
+  position: absolute;
+  left: 2.4rem;
+  top: 43.9rem;
+  overflow: hidden;
+  border: dashed 0.1rem #000000;
+  background-color: #f9f4d8;
+  border-radius: 2.5rem;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .game-mode-8sX {
+  margin-bottom: 1.2rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #ed6112;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ {
+  margin: 0rem 0rem 5.3rem 1.2rem;
+  width: calc(100% - 1.2rem);
+  height: 20.7rem;
+  display: flex;
+  align-items: center;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .group-2-7Df {
+  width: 15.3rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .group-2-7Df .rectangle-3-cw7 {
+  width: 15.3rem;
+  height: 20.2rem;
+  position: absolute;
+  left: 0;
+  top: 0.3rem;
+  background-color: #eeb037;
+  border-radius: 2.5rem;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .group-2-7Df .randomize-t1T {
+  width: 13.1rem;
+  height: 3.9rem;
+  position: absolute;
+  left: 1.3rem;
+  top: 16.8rem;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #000000;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .group-2-7Df .ramdomize-1-Mfj {
+  width: 14.9rem;
+  height: 17.6rem;
+  position: absolute;
+  left: 0.4rem;
+  top: 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('/main/assets/ramdomize-1.png');
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .auto-group-5oz3-euj {
+  box-sizing: border-box;
+  padding-left: 4.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .auto-group-5oz3-euj .group-1-LGm {
+  margin: 0.2rem 4.4rem 0.2rem 0rem;
+  width: 15.3rem;
+  height: calc(100% - 0.4rem);
+  position: relative;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .auto-group-5oz3-euj .group-1-LGm .rectangle-2-DLZ {
+  width: 15.3rem;
+  height: 20.2rem;
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  background-color: #eeaf36;
+  border-radius: 2.5rem;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .auto-group-5oz3-euj .group-1-LGm .bombparty-1-KeV {
+  width: 15.3rem;
+  height: 17.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .auto-group-5oz3-euj .group-1-LGm .bomb-qMw {
+  width: 7.7rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 0.4rem;
+  top: 12.6rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #000000;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .auto-group-5oz3-euj .group-1-LGm .party-K2D {
+  width: 8.1rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 6.3rem;
+  top: 15.7rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #000000;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .auto-group-5oz3-euj .group-3-oxy {
+  margin: 0.3rem 5rem 0.1rem 0rem;
+  width: 15.3rem;
+  height: calc(100% - 0.4rem);
+  position: relative;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .auto-group-5oz3-euj .group-3-oxy .rectangle-4-uWD {
+  width: 15.3rem;
+  height: 20.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #eeb037;
+  border-radius: 2.5rem;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .auto-group-5oz3-euj .group-3-oxy .detective-DG1 {
+  width: 9.8rem;
+  height: 3.4rem;
+  position: absolute;
+  left: 0.4rem;
+  top: 14.7rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #000000;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .auto-group-5oz3-euj .group-3-oxy .word-hws {
+  width: 5.5rem;
+  height: 3.4rem;
+  position: absolute;
+  left: 9rem;
+  top: 16.9rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #000000;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .auto-group-5oz3-euj .group-3-oxy .detective-1-pFo {
+  width: 14.8rem;
+  height: 16.5rem;
+  position: absolute;
+  left: 0.3rem;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+#Dance{
+  z-index: 3;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .auto-group-5oz3-euj .dance-YSh {
+  margin-bottom: 0.2rem;
+  width: 15.3rem;
+  height: 20.5rem;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .auto-group-5oz3-euj .dance-YSh .rectangle-5-4R3 {
+  width: 15.3rem;
+  height: 20.2rem;
+  position: absolute;
+  left: 0;
+  top: 0.3rem;
+  background-color: #eeb037;
+  border-radius: 2.5rem;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .auto-group-5oz3-euj .dance-YSh .harvestfestival-1-NwX {
+  width: 14.6rem;
+  height: 17rem;
+  position: absolute;
+  left: 0.4rem;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-xee7-pEZ .auto-group-5oz3-euj .dance-YSh .harvest-festival-VWM {
+  width: 14.1rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 16.9rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #000000;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-gh23-wdF {
+  margin: 0rem 4.035rem 3.813rem 0.1rem;
+  width: calc(100% - 4.1351rem);
+  height: 6.8866rem;
+  display: flex;
+  align-items: center;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-gh23-wdF .rectangle-6-EsF {
+  margin: 0rem 2.2rem 0.087rem 0rem;
+  width: 37.5rem;
+  height: 5.8rem;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+  outline: none;
+}
+.rectangle-6-EsF, .rectangle-10-dNu{
+  font-size: 3.2rem;
+ font-weight: 200; 
+ line-height: 1.3775; 
+ color: #000000; 
+ font-family: Spicy Rice, 'Source Sans Pro';
+ text-align: center;
+ outline: none;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-gh23-wdF .public-private-7RF {
+  width: 32.4649rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-gh23-wdF .public-private-7RF .rectangle-7-FXT {
+  width: 20.2154rem;
+  height: 6.8866rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #d9d9d9;
+  border-radius: 2.7768rem;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-gh23-wdF .public-private-7RF .rectangle-8-BAD {
+  width: 20.2154rem;
+  height: 6.8866rem;
+  position: absolute;
+  left: 12.2181rem;
+  top: 0;
+  background-color: #d9d9d9;
+  border-radius: 2.7768rem;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-gh23-wdF .public-private-7RF .rectangle-9-tqK {
+  width: 16.4389rem;
+  height: 6.8866rem;
+  position: absolute;
+  left:0;
+  right:auto;
+  top: 0;
+  background-color: #f69c32;
+  border-radius: 2.7768rem;
+  transition: transform 1s ease;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-gh23-wdF .public-private-7RF .group-6-D6u {
+  width: 13.9648rem;
+  height: 4.8157rem;
+  position: absolute;
+  left: 0.7775rem;
+  top: 0.9997rem;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-gh23-wdF .public-private-7RF .group-6-D6u .earth-1-iJZ {
+  margin: 0rem 0.678rem 0.025rem 0rem;
+  width: 4.8872rem;
+  height: 4.791rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-gh23-wdF .public-private-7RF .group-6-D6u .public-1Hf {
+  font-size: 3.2744rem;
+  font-weight: 400;
+  line-height: 0.7775;
+  color: #000000;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-align: center;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-gh23-wdF .public-private-7RF .group-5-vfX {
+  box-sizing: border-box;
+  padding-right: 0.7649rem;
+  width: 15.6928rem;
+  height: 4.9225rem;
+  cursor: pointer;
+  position: absolute;
+  left: 16.7721rem;
+  top: 0.8775rem;
+  display: flex;
+  align-items: flex-start;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-gh23-wdF .public-private-7RF .group-5-vfX .lock-1-dK3 {
+  margin-right: 0.5183rem;
+  width: 3.5095rem;
+  height: 4.6651rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-gh23-wdF .public-private-7RF .group-5-vfX .private-ZCh {
+  margin-top: 0.2225rem;
+  font-size: 3.3835rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #000000;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .start-the-game-V3s .auto-group-pycs-sUH {
+  margin: 0rem 18.8rem 0rem 16.5rem;
+  width: calc(100% - 35.3rem);
+  height: 6.9rem;
+  font-size: 3.2744rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #000000;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a2e85c;
+  border-radius: 2.7768rem;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+.auto-group-pycs-sUH:hover{
+  opacity: 0.5;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .banner2-1-f9F {
+  width: 154.9rem;
+  height: 43.8078rem;
+  position: absolute;
+  left: -3px;
+  top: 3.1rem;
+  object-fit:fill;
+  vertical-align: top;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .code-join-room-Yyj {
+  box-sizing: border-box;
+  padding: 1rem 0rem 8rem 0.8rem;
+  width: 57.6rem;
+  height: 21.9rem;
+  position: absolute;
+  left: 87.5rem;
+  top: 44.6rem;
+  overflow: hidden;
+  border: dashed 0.1rem #000000;
+  background-color: #f9f4d8;
+  border-radius: 2.5rem;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .code-join-room-Yyj .join-private-room-SpD {
+  margin-bottom: 2.6rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #ed6112;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .code-join-room-Yyj .auto-group-kybh-n7P {
+  margin-left: 0.6rem;
+  height: 5.8rem;
+  display: flex;
+  align-items: center;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .code-join-room-Yyj .auto-group-kybh-n7P .code--JrR {
+  margin: 0.1rem 0.8rem 0rem 0rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #000000;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .code-join-room-Yyj .auto-group-kybh-n7P .rectangle-10-dNu {
+  margin-right: 2.1rem;
+  width: 29.4rem;
+  height: 5.8rem;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .code-join-room-Yyj .auto-group-kybh-n7P .group-9-jwj {
+  width: 16.7rem;
+  height: 100%;
+  position: relative;
+  border-radius: 1.6458rem;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .code-join-room-Yyj .auto-group-kybh-n7P .group-9-jwj .rectangle-10-h7s {
+  width: 15.1rem;
+  height: 5.8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #a2e85c;
+  border-radius: 1.6458rem;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .code-join-room-Yyj .auto-group-kybh-n7P .group-9-jwj .join-room-dGR {
+  width: 14.1rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 0.3rem;
+  top: 0.8rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #000000;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+  cursor: pointer;
+}
+.join-room-dGR:hover
+{
+  opacity: 0.5;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .group-10-dQq {
+  width: 57.6301rem;
+  height: 25.2361rem;
+  position: absolute;
+  left: 87.5rem;
+  top: 68.2rem;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .group-10-dQq .auto-group-mabv-xT7 {
+  margin: 0rem 28.788rem 0.923rem 0rem;
+  width: calc(100% - 28.7876rem);
+  display: flex;
+  align-items: center;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .group-10-dQq .auto-group-mabv-xT7 .paper-1-gP7 {
+  margin-right: 0.7706rem;
+  width: 5.9719rem;
+  height: 5.3377rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .group-10-dQq .auto-group-mabv-xT7 .news-26-11-2023-Ddw {
+  margin-top: 0.274rem;
+  font-size: 2.697rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Ruda, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .group-10-dQq .hi-there-wed-love-to-say-that-we-are-so-happy-when-you-are-here-we-will-try-our-best-to-give-the-greatest-experiment-j6V {
+  margin: 0rem 0rem 0.984rem 1.83rem;
+  max-width: 55.8rem;
+  font-size: 2.697rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Ruda, 'Source Sans Pro';
+}
+.room-after-login-pgV .auto-group-vjm9-453 .group-10-dQq .auto-group-swaw-ABo {
+  margin: 0rem 2.631rem 0rem 2.312rem;
+  width: calc(100% - 4.9425rem);
+  height: 8.091rem;
+  display: flex;
+  align-items: center;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .group-10-dQq .auto-group-swaw-ABo .auto-group-7qdd-RdX {
+  box-sizing: border-box;
+  padding-right: 6.2609rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .group-10-dQq .auto-group-swaw-ABo .auto-group-7qdd-RdX .meta-1-ZDw {
+  margin-right: 5.2305rem;
+  width: 10.0846rem;
+  height: 7.759rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .group-10-dQq .auto-group-swaw-ABo .auto-group-7qdd-RdX .insta-1-H9w {
+  width: 7.802rem;
+  height: 7.802rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .group-10-dQq .auto-group-swaw-ABo .x-1-DJV {
+  margin-right: 5.394rem;
+  width: 8.091rem;
+  height: 8.091rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .group-10-dQq .auto-group-swaw-ABo .youtube-1-Ybf {
+  margin-top: 0.4703rem;
+  width: 9.8247rem;
+  height: 7.0549rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .header-gC5 {
+  box-sizing: border-box;
+  padding: 0rem 3.1rem 0rem 1.2rem;
+  width: 151.9rem;
+  height: 7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e9ac37;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .header-gC5 .auto-group-uqwj-Nqb {
+  margin: 1.1rem 0.5rem 1.5rem 0rem;
+  width: 23.7rem;
+  height: calc(100% - 2.6rem);
+  position: relative;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .header-gC5 .auto-group-uqwj-Nqb .explosive-w-rd-hcy {
+  width: 30.7rem;
+  height: 4.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.345;
+  color: #000000;
+  font-family: Leckerli One, 'Source Sans Pro';
+  white-space: nowrap;
+  text-decoration: none;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .header-gC5 .auto-group-uqwj-Nqb .bm-1-oAD {
+  width: 3.rem;
+  height: 3.3rem;
+  position: absolute;
+  left: 17.6rem;
+  top: 0.2rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .header-gC5 .dog-1-tBf {
+  margin: 0rem 80.205rem 0.5rem 0rem;
+  width: 6.6952rem;
+  height: 6.5rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .header-gC5 .auto-group-5zpd-Cy3 {
+  margin: 0.9rem 0;
+  box-sizing: border-box;
+  padding: 0.5rem 6.2rem 0.2rem 1.891rem;
+  height: calc(100% - 1.8rem);
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 3rem;
+  flex-shrink: 0;
+
+
+}
+.room-after-login-pgV .auto-group-vjm9-453 .header-gC5 .auto-group-5zpd-Cy3 .ei-user-v8M {
+  margin: 0rem 0.869rem 0rem 0rem;
+  width: 3.74rem;
+  max-width: 100%;
+  height: 3.74rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vjm9-453 .header-gC5 .auto-group-5zpd-Cy3 .username1-MzM {
+  font-size: 3.2rem;
+  font-weight: 200;
+  line-height: 1.3775;
+  color: #000000;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  width: 240px !important;
+  outline: none;
+  /* width: auto;s */
+  /* flex-shrink: 0; */
+}
+.room-after-login-pgV .auto-group-vcr1-G5j {
+  /* box-sizing: border-box; */
+  padding: 2.1rem 1.2rem 3.518rem 2.711rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: dashed 0.1rem #000000;
+  background-color: #f69c32;
+  flex-shrink: 0;
+  position: relative;
+  height: fit-content;
+  /* overflow: auto; */
+  flex-grow: 1;
+  min-height: 0;
+}
+.room-after-login-pgV .auto-group-vcr1-G5j .auto-group-byt5-ZKj {
+  margin: 0rem 0rem 4.289rem 0.789rem;
+  width: calc(100% - 0.7889rem);
+  height: 6.3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vcr1-G5j .auto-group-byt5-ZKj .available-room-for-u-to-join-Rsj {
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #000000;
+  font-family: Trocchi, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vcr1-G5j .auto-group-byt5-ZKj .auto-group-hmqx-LUu {
+  box-sizing: border-box;
+  padding-left: 18.1rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vcr1-G5j .auto-group-byt5-ZKj .auto-group-hmqx-LUu .auto-group-tdjr-HQ9 {
+  margin: 0rem 2.1rem 0.5rem 0rem;
+  box-sizing: border-box;
+  padding: 0.9rem 2.3rem 0.7rem 2.3rem;
+  width: 37.5rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #000000;
+  font-family: Trocchi, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #000000;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .auto-group-vcr1-G5j .auto-group-byt5-ZKj .auto-group-hmqx-LUu .auto-group-ebgf-teq {
+  margin: 0.4rem 0rem 0.5rem 0rem;
+  box-sizing: border-box;
+  padding: 0.7rem 2.3rem 0.1rem 2rem;
+  height: calc(100% - 0.9rem);
+  font-size: 3.2744rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #000000;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #5cbee8;
+  border-radius: 2.5rem;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+.auto-group-ebgf-teq:hover {
+ opacity: 0.5;
+}
+
+.auto-group-ebgf-teq.active {
+ opacity: 0.3;
+}
+.room-after-login-pgV .auto-group-vcr1-G5j .auto-group-heuk-wd7 {
+  margin: 0rem 1.766rem 3.406rem 0rem;
+  width: calc(100% - 1.7662rem);
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+}
+
+.room-after-login-pgV .auto-group-vcr1-G5j .auto-group-heuk-wd7 .bombparty-room-TbT {
+  /* width: 40.4915rem; */
+  width: calc((100% - 1.7662rem * 2) / 3); 
+  height: 25rem;
+  /* position: relative; */
+  flex-shrink: 0;
+  transform: rotate(4deg); 
+  transform-origin: left bottom;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+.room-after-login-pgV .auto-group-vcr1-G5j .auto-group-heuk-wd7 .bombparty-room-TbT .rectangle-11-B1f {
+  width: 40.4915rem;
+  height: 19.6555rem;
+  position: absolute;
+  left: 0;
+  top: 0.0381rem;
+  background: linear-gradient(114.83deg, #ff3131 46.56%, #ff914d 88.48%);
+  border-radius: 3.1835rem;
+}
+.room-after-login-pgV .auto-group-vcr1-G5j .auto-group-heuk-wd7 .bombparty-room-TbT .line-1-SiH {
+  width: 18.4206rem;
+  height: 0.1273rem;
+  position: absolute;
+  left: 31.7134rem;
+  top: 0.6818rem;
+  background-color: #000000;
+  transform: rotate(90deg); 
+  transform-origin: left bottom; 
+}
+.room-after-login-pgV .auto-group-vcr1-G5j .auto-group-heuk-wd7 .bombparty-room-TbT .bombparty-2-a3o {
+  width: 13.8231rem;
+  height: 11.5594rem;
+  position: absolute;
+  left: 1.657rem;
+  top: 7.0083rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.room-after-login-pgV .auto-group-vcr1-G5j .auto-group-heuk-wd7 .bombparty-room-TbT .bombparrty-english-gcd {
+  width: 17rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 13.5486rem;
+  top: 7.1561rem;
+  text-align: center;
+  font-size: 3.0561rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #fff4f4;
+  font-family: Spicy Rice, 'Source Sans Pro';
+}
+.room-after-login-pgV .auto-group-vcr1-G5j .auto-group-heuk-wd7 .bombparty-room-TbT .fmhk-m8H {
+  width: 6.5rem;
+  height: 9.5rem;
+  position: absolute;
+  left: 28.844rem;
+  top: -60px;
+  font-size: 3.8201rem;
+  font-weight: 400;
+  line-height: 1.2375;
+  color: #0b0b0b;
+  font-family: Rubik Mono One, 'Source Sans Pro';
+  transform: rotate(90deg); 
+  transform-origin: left bottom; 
+}
+.room-after-login-pgV .auto-group-vcr1-G5j .auto-group-heuk-wd7 .bombparty-room-TbT .username1s-room-gFF {
+  width: 24.7rem;
+  height: 4.3rem;
+  position: absolute;
+  left: 3.1rem;
+  top: 1.4159rem;
+  font-size: 3.0561rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #000000;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+
+
+.room-after-login-pgV .footer-tf7 {
+  box-sizing: border-box;
+  padding: 2.8rem 1.9rem 0.6rem 40.7rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  background-color: #dadada;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .footer-tf7 .lab-1-p2y {
+  margin-right: 1.6577rem;
+  width: 6.0423rem;
+  height: 8.1rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .footer-tf7 .hope-you-enjoy-the-game-Jyj {
+  margin: 0rem 21.1rem 1.1rem 0rem;
+  font-size: 4.5rem;
+  font-weight: 400;
+  line-height: 1.345;
+  color: rgba(0, 0, 0, 0.3300000131);
+  font-family: Leckerli One, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.room-after-login-pgV .footer-tf7 .nhm-se400-Zem {
+  margin-bottom: 0.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.345;
+  color: rgba(0, 0, 0, 0.2800000012);
+  font-family: Leckerli One, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}

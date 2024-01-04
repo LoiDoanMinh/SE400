@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Desktop - 3</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spicy+Rice%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Mono%3A400"/>
+  <link rel="stylesheet" href="./styles/desktop-4.css"/>
+</head>
+<body>
+  <audio  id="audio" preload="auto" autoplay="auto" loop  >
+    <source type="audio/mp3" src="assets/creepy-devil-dance-166764.mp3">
+</audio>
+<div class="desktop-3-gxM">
+  <div class="headeringame-Eiy">
+    <p class="code-kofm-MYh">Code:  KOFM</p>
+    <img class="vector-Gff" id="nut" src="./assets/vector-HXT.png"/>
+  </div>
+  <div class="auto-group-49mm-bT3">
+    <div class="auto-group-vegk-w17">
+      <div class="auto-group-avlb-zEH">
+          <!-- player 1 -->
+          <div class="auto-group-hghy-DoT" id="player1">
+            <div class="auto-group-lkt3-L7P">
+              <img class="heart-7-FEM" src="./assets/heart-7.png"/>
+              <img class="heart-8-nVB" src="./assets/heart-8.png"/>
+              <img class="heart-9-jQR" src="./assets/heart-9.png"/>
+            </div>
+            <div class="auto-group-cmzm-CUm" >
+              <img class="mokey-1-JEy" src="./assets/mokey-1-WKP.png"/>
+              <p class="username4-XtR">Username4</p>
+              </div>
+              <img id="player1-fire" style="top:40px; left:190px; z-index: 1;" class="fire" src="./assets/fire.gif"/>
+          </div>
+
+       
+
+        <div class="auto-group-nt3h-rfo">
+          <!-- player2 -->
+          
+          <div class="auto-group-hghy-DoT pull2" id="player2">
+            <div class="auto-group-lkt3-L7P pull">
+              <img class="heart-7-FEM" src="./assets/heart-7.png"/>
+              <img class="heart-8-nVB" src="./assets/heart-8.png"/>
+              <img class="heart-9-jQR" src="./assets/heart-9.png"/>
+            </div>
+            <div class="auto-group-cmzm-CUm" >
+              <img class="bat-1-jDo" src="./assets/bat-1-T1o.png"/>
+              <p class="username3-rZK">Username3</p>
+            </div>
+            <img id="player2-fire" class="fire" src="./assets/fire.gif"/>
+          </div>
+          <!-- quả boom đây -->
+          <img class="bm-2-ytq" id="Bom"  src="./assets/bm-2-M6M.png"/>
+          <p class="bm-2-ytq bm-2-ytq1">...IVE</p>
+          <!-- player 3 -->
+          <div class="auto-group-hghy-DoT push" id="player3">
+            <div class="auto-group-lkt3-L7P push">
+              <img class="heart-7-FEM" src="./assets/heart-7.png"/>
+              <img class="heart-8-nVB" src="./assets/heart-8.png"/>
+              <img class="heart-9-jQR" src="./assets/heart-9.png"/>
+            </div>
+            <div class="auto-group-dw1z-hZw player3">
+              <p class="username1-3do">Username1</p>
+              <img class="baby-1-MPb" src="./assets/baby-1-8Ym.png"/>
+            </div>
+            <img id="player3-fire" style="top:40px; left:380px; z-index: 1;" class="fire" src="./assets/fire.gif"/>
+          </div>
+         
+        </div>
+        <!-- player 4 -->
+        <div class="auto-group-hghy-DoT" id="player4">
+          <div class="auto-group-lkt3-L7P">
+            <img class="heart-7-FEM" src="./assets/heart-7.png"/>
+            <img class="heart-8-nVB" src="./assets/heart-8.png"/>
+            <img class="heart-9-jQR" src="./assets/heart-9.png"/>
+          </div>
+          <div class="auto-group-cmzm-CUm" >
+            <img class="chicken-1-4oo" src="./assets/chicken-1-n6Z.png"/>
+            <p class="username2-zSZ">Username2</p>
+            </div>
+            <img id="player4-fire" style="top:40px; left:190px; z-index: 1;" class="fire" src="./assets/fire.gif"/>
+        </div>
+       
+        <!-- <div class="auto-group-kboh-idT">Leave</div> -->
+      </div>
+      <input type="text" class="rectangle-10-dNu">
+    </div>
+    <div class="auto-group-skfq-yJV">
+      <p class="chat-room-gyb">Chat Room</p>
+      <div class="chat" id="chat">
+      <p class="usernam1-hello-DmX">Usernam1: Hello</p>
+  
+
+
+      </div>
+      <input id="chatbar" class="auto-group-5c4j-rBF" placeholder="Type Here to chat">
+    </div>
+
+  </div>
+</div>
+
+</body>
+<script src="ScriptChung.js"></script>
+<script>
+  // sự kiện nhân vật xuất hiện
+// var player1=document.querySelector("#player1");
+// player1.style.display="none";
+// var player1=document.querySelector("#player3");
+// player1.style.display="none";
+// var player1=document.querySelector("#player4");
+// player1.style.display="none";
+var Bom=document.querySelector("#Bom");
+var animation= setInterval(mytimer,1000);
+function mytimer ()
+{
+  Bom.style.transform= "scale(1.1)";
+  setTimeout(()=>{Bom.style.transform= "scale(1.5)";},500); 
+}
+
+</script>

@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  {{!--
+  <link rel="icon" href="/favicon.ico" /> --}}
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Desktop - 9</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spicy+Rice%3A400" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito%3A400" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Mono%3A400" />
+  <link rel="stylesheet" href="../main/styles/desktop-9.css" />
+</head>
+
+<body>
+  <audio id="audio" preload="auto" loop>
+    <source type="audio/mp3" src="../main/assets/creepy-devil-dance-166764.mp3">
+  </audio>
+  <audio id="audio1" preload="auto">
+    <source type="audio/mp3" src="../main/assets/bouncy-142744.mp3">
+  </audio>
+  <audio id="audio2" preload="auto">
+    <source type="audio/mp3" src="../main/assets/bingo.mp3">
+  </audio>
+  <audio id="audio3" preload="auto">
+    <source type="audio/mp3" src="../main/assets/lose.mp3">
+  </audio>
+  <audio id="audio4" preload="auto">
+    <source type="audio/mp3" src="../main/assets/Winner.mp3">
+  </audio>
+  <audio id="audio5" preload="auto" loop>
+    <source type="audio/mp3" src="../main/assets/Winner2.mp3">
+  </audio>
+   <audio id="audio6" preload="auto">
+    <source type="audio/mp3" src="../main/assets/countdown-boom-76577.mp3">
+  </audio>
+  <div class="desktop-3-gxM">
+    <div class="headeringame-Eiy">
+      <p class="code-kofm-MYh" id="code"></p>
+      <img class="vector-Gff" id="nut" src="../main/assets/vector.png" />
+    </div>
+    <div class="auto-group-49mm-bT3">
+      <div class="auto-group-vegk-w17" id="Wating" style="display: block;" >
+        <p class="waiting-for-1-player-to-start-TVF" id="Count-Player">Waiting for 1 Player to start</p>
+        <div class="auto-group-avlb-zEH">
+          <!-- player 1 -->
+          <div class="auto-group-cmzm-CUm player" id="player1" style="display: none;">
+            <img class="mokey-1-JEy" src="../main/assets/mokey-1.png" />
+            <p class="username4-XtR playerName" id="Player1-name">Username4</p>
+          </div>
+
+          <div class="auto-group-nt3h-rfo">
+            <!-- player2 -->
+            <div class="auto-group-cmzm-CUm player" id="player2" style="display: none;">
+              <img class="bat-1-jDo" src="../main/assets/bat-1.png" />
+              <p class="username3-rZK playerName" id="Player2-name">Username3</p>
+            </div>
+            <img class="bm-2-ytq" id="countDown" src="../main/assets/harvestroom-1.png"/>
+            <!-- player 3 -->
+            <div class="auto-group-dw1z-hZw player" id="player3" style="display: none;">
+              <p class="username1-3do playerName" id="Player3-name">Username1</p>
+              <img class="baby-1-MPb " src="../main/assets/baby-1.png" />
+            </div>
+          </div>
+          <!-- player 4 -->
+          <div class="auto-group-cmzm-CUm player" id="player4" style="display: none;">
+            <img class="chicken-1-4oo" src="../main/assets/chicken-1.png" />
+            <p class="username2-zSZ playerName" id="Player4-name">Username2</p>
+          </div>
+          <!-- <div class="auto-group-kboh-idT">Leave</div> -->
+        </div>
+        <div class="auto-group-kboh-idT" id="Leave">Leave</div>
+      </div>
+      <!-- phần vào game -->
+      <div class="GameRoomK" id="Starting" style="display: none;">
+        <div class="PlayersK">
+          <div class="Player1K">
+            <div class="PlayerK player" id="player1" style="display: none;">
+              <div class="Character">
+                <div class="Player-avatar">
+                  <img src="../main/assets/mokey-1.png" alt="">
+                </div>
+                <div class="player-Name">
+                  <p class="playerName">UserName1</p>
+                </div>
+              </div>
+              <div class="experience">
+                <div class="head">
+
+                </div>
+                  <div class="exps">
+                <p>0</p>
+                <img src="../main/assets/water.gif" alt="">
+                <div class="exp">
+                </div>
+              </div>
+              </div>
+            
+            </div>
+           <div class="PlayerK player" id="player2" style="display: none;">
+              <div class="Character" style="  width: 65%;" >
+                <div class="Player-avatar">
+                  <img src="../main/assets/bat-1.png" alt="" style="transform: scale(0.9);">
+                </div>
+                <div class="player-Name">
+                  <p class="playerName">UserName2</p>
+                </div>
+              </div>
+              <div class="experience">
+                <div class="head">
+                  
+                </div>
+                  <div class="exps">
+                <p>0</p>
+                <img src="../main/assets/water.gif" alt="">
+                <div class="exp">
+                </div>
+              </div>
+              </div>
+            
+            </div>
+          </div>
+          <div class="Player1K">
+              <div class="PlayerK player" id="player3" style="display: none;">
+              <div class="Character">
+                <div class="Player-avatar">
+                  <img src="../main/assets/baby-1.png" alt="">
+                </div>
+                <div class="player-Name">
+                  <p class="playerName">UserName3</p>
+                </div>
+              </div>
+              <div class="experience">
+                <div class="head">
+                  
+                </div>
+                  <div class="exps">
+                <p>0</p>
+                <img src="../main/assets/water.gif" alt="">
+                <div class="exp">
+                </div>
+              </div>
+              </div>
+            
+            </div>
+               <div class="PlayerK player" id="player4" style="display: none;">
+              <div class="Character">
+                <div class="Player-avatar">
+                  <img src="../main/assets/chicken-1.png" alt="">
+                </div>
+                <div class="player-Name">
+                  <p class="playerName">UserName4</p>
+                </div>
+              </div>
+              <div class="experience">
+                <div class="head">
+                  
+                </div>
+                  <div class="exps">
+                <p>0</p>
+                <img src="../main/assets/water.gif" alt="">
+                <div class="exp">
+                </div>
+              </div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+        {{!-- cái map nè --}}
+        <div class="GameMap">
+          <div class="Row1">
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="Row1">
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="Row1">
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!/</p>
+              </div>
+            </div>
+          </div>
+          <div class="Row1">
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+          </div>
+          <div class="Row1">
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+          </div>
+          <div class="Row1">
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+            <div class="cell">
+              <div class="Score">
+                <p>??</p>
+              </div>
+              <div class="question">
+                <p>!!/!!/!!</p>
+              </div>
+            </div>
+          </div>
+          <div class="Row1">
+            <input type="text" class="TestBox" id="typeAnswer">
+          </div>
+        </div>
+
+        <div class="icon1" id="icon1">
+          <img src="../main/assets/nicework.png" alt="">
+        </div>
+        <div class="icon2" id="icon2">
+          <img src="../main/assets/lolo.gif" alt="">
+        </div>
+      </div>
+      <div id="Ranking" style="display: none;">
+        <div id="Winner">
+          <img src="../main/assets/dog-1.png" alt="">
+        </div>
+        <div id="NameWinner">
+          <p>UserName1</p>
+        </div>
+      </div>
+
+      <!-- phần chat nè -->
+      <div class="auto-group-skfq-yJV">
+        <p class="chat-room-gyb">Chat Room</p>
+        <div class="chat" id="chat">
+
+        </div>
+        <input id="chatbar" class="auto-group-5c4j-rBF" placeholder="Type Here to chat">
+      </div>
+
+    </div>
+  </div>
+</body>
+
+<script src="../socket.io/socket.io.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js"
+  integrity="sha512-b94Z6431JyXY14iSXwgzeZurHHRNkLt9d6bAHt7BZT38eqV+GyngIi/tVye4jBKPYQ2lBdRs0glww4fmpuLRwA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script>
+  var log = `{{id}}`;
+  // js của Waiting-Room
+  var Leave = document.querySelector("#Leave");
+  Leave.onclick = function () {
+    window.history.back();
+  }
+  var myDiv = document.getElementById("chat");
+  myDiv.innerHTML = '';
+  var socket = io(`{{local}}`);
+
+
+  //tách đoạn code
+  var i = 0;
+  var code1 = '';
+  var UserName = '';
+  var Loca = '';
+  var Of = '';
+  while (i < log.length && log[i] != ',') {
+    code1 += log[i];
+    i++;
+  }
+  i++;
+  while (i < log.length && log[i] != ',') {
+    UserName += log[i];
+    i++;
+  }
+  i++;
+  while (i < log.length && log[i] != ',') {
+    Loca += log[i];
+    i++;
+  }
+  i++;
+  while (i < log.length && log[i] != ',') {
+    Of += log[i];
+    i++;
+  }
+  //tách đoạn code được gửi từ server
+  //giải nén biến Of vì có 1 số ký tự đặc biệt
+  function decodeHtmlEntity(encodedString) {
+    var doc = new DOMParser().parseFromString(encodedString, 'text/html');
+    return doc.documentElement.textContent;
+  }
+  Of = decodeHtmlEntity(Of);
+  //tạo room
+  if (Loca === 'my') {
+    socket.emit("Create-Room", { UserName: UserName, RoomName: UserName + "'s Room", Code: code1 });
+    socket.emit("Create-Player");
+    socket.on("Player-At-TheMoment", function (data) {
+      disPlayer(data);
+
+      if (data.length ===1)
+        ZoGame(true);
+    });
+
+  }
+  else
+    if (Loca === "your") {
+      socket.emit("Create-Room", { UserName: UserName, RoomName: Of });
+      socket.emit("Create-Player");
+      socket.on("Player-At-TheMoment", function (data) {
+        disPlayer(data);
+
+        if (data.length ===1)
+          ZoGame(true);
+      });
+    }
+  //xử lý hiển thị người chơi gia nhập
+  var code = document.querySelector("#code");
+  code.textContent += 'Code: ';
+  code.textContent += code1;
+  var UI = document.querySelectorAll(".player");
+  var UI_name = document.querySelectorAll(".playerName");
+  var countPlayer = document.querySelector("#Count-Player");
+  var countDown = document.querySelector("#countDown");
+  var Wating = document.querySelector("#Wating");
+  var Starting = document.querySelector("#Starting");
+  var countdown, countdown1;
+  var DemNguoc = ["../main/assets/10.png", "../main/assets/9.png", "../main/assets/8.png", "../main/assets/7.png", "../main/assets/6.png", "../main/assets/5.png", "../main/assets/4.png", "../main/assets/3.png", "../main/assets/2.png", "../main/assets/1.png", "../main/assets/LetGo.png"];
+  var rn;
+  if (Loca === 'my')
+    rn = Of + "'s Room";
+  else
+    rn = Of;
+  socket.emit("iWantToKnowMember", rn);
+  socket.on("memberWating", function (data) {
+    t = 4 - data;
+    //console.log(t);
+
+    countPlayer.textContent = `Waiting for ${t.toString()} Player to start`;
+  });
+  socket.on("Check-people", function () {
+    socket.emit("iWantToKnowMember", rn);
+  })
+  // sự kiện nhân vật xuất hiện
+  var roundInfor;
+  function disPlayer(idPlayer) {
+    if (idPlayer.length != 4) {
+      clearInterval(countdown);
+      clearTimeout(countdown1);
+      countDown.setAttribute("src", "../main/assets/harvestroom-1.png");
+    }
+    var i, j;
+    for (i = 0; i < idPlayer.length; i++) {
+      UI[i].style.display = "block";
+      UI[i + 4].style.display = "flex";
+      UI_name[i].textContent = idPlayer[i].Use;
+      UI_name[i + 4].textContent = idPlayer[i].Use;
+      if (idPlayer[i].Use === UserName) {
+        var color='#FFB6C1';
+        UI_name[i].style.color=color;
+         UI_name[i+4].style.color=color;
+        UI_name[i].style.animation = "beautifulText 0.4s ease-in-out infinite alternate";
+        UI_name[i + 4].style.animation = "beautifulText 0.4s ease-in-out infinite alternate";
+      }
+      else {
+        UI_name[i].style.animation = "none";
+        UI_name[i].style.color='#fbf3f3';
+      }
+      j = i;
+    }
+    for (; i < UI.length - 4; i++) {
+
+      UI[i].style.display = "none";
+      UI[i + 4].style.display = "none";
+    }
+  }
+  //vào game
+  function ZoGame(check) {
+    if (check == true) {
+      var dem = 0;
+      var audio6=document.querySelector("#audio6");
+      audio6.play();
+      countdown = setInterval(function () {
+        countDown.setAttribute("src", DemNguoc[dem]);
+        dem++;
+      }, 1000);
+      //lấy từ lên
+      var beforeVocabularyArray = [];
+       axios.get(`{{local}}/harvestfestival/GetWord`)
+    .then(response => {
+        for (var i=0;i<response.data.length;i++)
+        beforeVocabularyArray.push(response.data[i].Word);
+        return beforeVocabularyArray;
+    })
+    .then(beforeVocabularyArray)
+    {
+countdown1 = setTimeout(function () {
+        // Dừng chu kỳ lặp bằng cách truyền ID vào clearInterval
+        clearInterval(countdown);
+
+        Wating.style.display = 'none';
+        Starting.style.display = 'flex';
+        // lấy bộ dữ liệu từ server lên
+        
+        
+        roundInfor = {
+          ques: beforeVocabularyArray,
+          round: 1,
+          room: rn,
+        }
+        socket.emit("StartGame", roundInfor);
+        //gửi send bắt đầu room ở đây nè :v mọe
+      }, 12000); // Dừng sau 5 giây  
+    }
+      
+    }
+  }
+  //nội dung chat cũ
+  var chat = document.querySelector("#chatbar");
+  function addParagraph(mes) {
+    // Tạo một thẻ <p>
+    var newParagraph = document.createElement("p");
+    newParagraph.classList.add("usernam1-hello-DmX");
+    // Thêm nội dung cho thẻ <p> (có thể sửa đổi dòng này để thêm nội dung mong muốn)
+    var paragraphContent = document.createTextNode(mes);
+    newParagraph.appendChild(paragraphContent);
+
+    // Lấy thẻ <div> dựa trên ID
+    var myDiv = document.getElementById("chat");
+
+    // Thêm thẻ <p> vào bên trong thẻ <div>
+    myDiv.appendChild(newParagraph);
+    myDiv.scrollTop = myDiv.scrollHeight;
+  }
+  socket.on("chat-text", function (data) {
+    myDiv.innerHTML = '';
+    for (var i = 0; i < data.length; i++)
+      addParagraph(data[i].chat);
+  })
+  //end chat nội dung cũ
+  //xóa room khi out lần cuối
+var local=`{{local}}`;
+</script>
+<script src="../main/StartFestivalGame.js"></script>
+<script src="../main/ScriptChung.js"></script>

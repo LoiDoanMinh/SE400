@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Desktop - 8</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spicy+Rice%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Mono%3A400"/>
+  <link rel="stylesheet" href="../main/styles/desktop-8.css"/>
+</head>
+<body>
+  <audio  id="audio" preload="auto" autoplay="auto" loop  >
+    <source type="audio/mp3" src="../main/assets/creepy-devil-dance-166764.mp3">
+</audio>
+<div class="desktop-2-6zR">
+  <div class="headeringame-2NH">
+       <p class="code-kofm-XZw" id="codeJoinRoom">Code: {{idPlayer.idPlayer}}</p>
+   
+    <img class="vector-SB7" id="nut" src="../main/assets/vector.png"/>
+  </div>
+  <div class="auto-group-hebm-LnH">
+    <div class="auto-group-bsnx-sXK">
+      <p class="waiting-for-1-player-to-start-PEm" id="Count-Player" >Waiting for 1 Player to start</p>
+      <img class="bombpartyroom-1-rPF"  src="../main/assets/Harvest1.png">
+      <div class="auto-group-ewup-xx5" id="joinTheGame">Join The Game</div>
+    </div>
+    <div class="auto-group-teip-CbX">
+      <p class="chat-room-7iV">Chat Room</p>
+      <div class="chat" id="chat">
+       
+       
+      </div>
+       
+  <input id="chatbar" class="auto-group-pvek-1sj" placeholder="Type Here to chat">
+
+     
+    </div>
+  </div>
+</div>
+<script src="../socket.io/socket.io.js"></script>
+<script>
+var joinTheGame=document.querySelector("#joinTheGame");
+var UserName={{{json Username}}}.UserName;
+var idPlayer1={{{json idPlayer}}}.idPlayer;
+var Loca={{{json Loca}}}.Loca;
+var Of={{{json Of}}}.Of;
+var range={{{json range}}}.range;
+var gameMode={{{json gameMode}}}.gameMode;
+ function decodeHtmlEntity(encodedString) {
+        var doc = new DOMParser().parseFromString(encodedString, 'text/html');
+        return doc.documentElement.textContent;
+    }
+    Of = decodeHtmlEntity(Of);
+
+   
+   var local=`{{local}}`;
+         
+    var socket=io(`{{local}}`);
+    
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js" integrity="sha512-b94Z6431JyXY14iSXwgzeZurHHRNkLt9d6bAHt7BZT38eqV+GyngIi/tVye4jBKPYQ2lBdRs0glww4fmpuLRwA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script type="module" src="../main/HarvestFestivalStartRoom.js"></script>
+<script src="../main/ScriptChung.js"></script>
+</body>

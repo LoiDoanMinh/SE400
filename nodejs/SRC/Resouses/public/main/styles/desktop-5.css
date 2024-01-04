@@ -1,0 +1,186 @@
+
+html {
+  font-size:62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul, li {
+  list-style: none;
+}
+input {
+  border: none;
+}
+body {
+  width: 151.9rem;
+}.desktop-2-6zR {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  background-color: #010101;
+}
+.desktop-2-6zR .headeringame-2NH {
+  margin-bottom: 0.4rem;
+  box-sizing: border-box;
+  padding: 0.8rem 2.495rem 0.4rem 1.3rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #e9ac37;
+  flex-shrink: 0;
+  justify-content: space-around;
+}
+.desktop-2-6zR .headeringame-2NH .code-kofm-XZw {
+  margin-right: 120rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #ffffff;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-2-6zR .headeringame-2NH .vector-SB7 {
+  margin-bottom: 0.5rem;
+  width: 4.0051rem;
+  height: 3.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.desktop-2-6zR .auto-group-hebm-LnH {
+  margin-left: 3rem;
+  width: calc(100% - 15rem);
+  height: 64.6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-around;
+}
+.desktop-2-6zR .auto-group-hebm-LnH .auto-group-bsnx-sXK {
+  margin: 5.1rem 4.2rem 11.1rem 0rem;
+  width: 93.6rem;
+  height: calc(100% - 16.2rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.desktop-2-6zR .auto-group-hebm-LnH .auto-group-bsnx-sXK .waiting-for-1-player-to-start-PEm {
+  margin: -5rem 15rem 19.3rem 0rem;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #ffffff;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  transform: scale(0.8);
+}
+.desktop-2-6zR .auto-group-hebm-LnH .auto-group-bsnx-sXK .bombpartyroom-1-rPF {
+  /* margin-bottom: 13.5405rem; */
+  width: 93.6rem;
+  height: fit-content;
+  object-fit:cover;
+  vertical-align: top;
+  flex-shrink: 0;
+  float:left;
+  margin-right: 15rem;
+  position: relative;
+  top:-200px;
+  /* z-index: 3; */
+  /* transform: scale(0.5); */
+}
+.desktop-2-6zR .auto-group-hebm-LnH .auto-group-bsnx-sXK .auto-group-ewup-xx5 {
+  margin: 0rem 50.9rem 0rem 33.7rem;
+  width: calc(100% - 52.6rem);
+  height: 6.9rem;
+  text-align: center;
+  font-size: 3.2744rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #000000;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #90ed47;
+  border-radius: 2.7768rem;
+  flex-shrink: 0;
+  transform: scale(0.8);
+  position: relative;
+  top:-250px;
+}
+.desktop-2-6zR .auto-group-hebm-LnH .auto-group-teip-CbX {
+  box-sizing: border-box;
+  /* padding-bottom: 0.6rem; */
+  width: 37.9rem;
+  height: 649px;
+  background-color: rgba(31, 24, 24, 0.6899999976);
+  flex-shrink: 0;
+  position: relative;
+  top:0px;  
+}
+.desktop-2-6zR .auto-group-hebm-LnH .auto-group-teip-CbX .chat{
+  height: 450px;
+  overflow:auto;
+
+}
+.desktop-2-6zR .auto-group-hebm-LnH .auto-group-teip-CbX .chat::-webkit-scrollbar {
+  display: none;
+}
+.desktop-2-6zR .auto-group-hebm-LnH .auto-group-teip-CbX .chat-room-7iV {
+  margin: 0rem 0rem 2rem 9.5rem;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #ffffff;
+  font-family: Spicy Rice, 'Source Sans Pro';
+  white-space: nowrap;
+ 
+}
+.desktop-2-6zR .auto-group-hebm-LnH .auto-group-teip-CbX .chat .usernam1-hello-DmX {
+  margin: 0rem 0rem 2.5rem 1.8rem;
+  font-size: 2.3rem;
+  font-weight: 400;
+  line-height: 1.3775;
+  color: #fbf3f3;
+  font-family: Nunito;
+  /* white-space: nowrap; */
+  box-sizing: border-box;
+  word-wrap:break-word;
+  overflow-wrap: break-word;
+  /* height:fit-content; */
+}
+
+.desktop-2-6zR .auto-group-hebm-LnH .auto-group-teip-CbX .auto-group-pvek-1sj {
+  box-sizing: border-box;
+  padding: 3.4rem 1.4rem 2.6rem 1.4rem;
+  width: 38.1rem;
+  font-size: 2.4rem;
+  font-weight: 10;
+  line-height: 1.3775;
+  color: #0f0f0f;
+  font-family: Roboto Mono;
+  white-space: nowrap;
+  background-color: #f9f9f9;
+  /* border-radius: 1rem; */
+  position: relative;
+  bottom: -30px;
+  height: 80px;
+  outline: none;
+}
+#nut
+{
+  cursor: pointer;
+}
+.chat::-webkit-scrollbar {
+  display: none;
+}
